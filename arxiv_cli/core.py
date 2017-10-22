@@ -2,7 +2,7 @@
 
 from __future__ import absolute_import, division, print_function
 
-from urllib import urlencode
+from six.moves.urllib.parse import urlencode
 
 from .utils import has
 

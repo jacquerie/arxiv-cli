@@ -21,6 +21,7 @@ install_requires = [
     'click~=6.0,>=6.7',
     'feedparser~=5.0,>=5.2.1',
     'requests~=2.0,>=2.18.4',
+    'six~=1.0,>=1.11.0',
 ]
 
 docs_require = []
@@ -79,6 +80,8 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
         'Topic :: Scientific/Engineering :: Information Analysis',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
