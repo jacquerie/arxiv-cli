@@ -31,7 +31,6 @@ tests_require = [
     'mock~=2.0,>=2.0.0',
     'pytest~=3.0,>=3.2.3',
     'pytest-cov~=2.0,>=2.5.1',
-    'pytest-flake8~=0.0,>=0.8.1',
     'pytest-httpretty~=0.0,>=0.2.0',
 ]
 
