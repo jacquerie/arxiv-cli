@@ -4,9 +4,4 @@
 
 from __future__ import absolute_import, division, print_function
 
-from .api import Client
-
-
-__all__ = (
-    'Client',
-)
+from .api import Client  # noqa: F401
